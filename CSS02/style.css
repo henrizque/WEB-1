@@ -1,0 +1,32 @@
+.lista {
+    list-style-type: square;
+    /* Marcaddor quadrador*/
+}
+
+.lista2 {
+    list-style-type: upper-roman;
+    /*Algarismos romanos*/
+}
+
+.lista3 {
+    list-style: image url(marcador.png);
+    /*Marcador co imagem*/
+}
+
+.tabela {
+    border-collapse: collapse;
+    /* une bordas adjacentes */
+    width: 100%;
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #ffffff;
+    /* linhas alternadas */
+}
