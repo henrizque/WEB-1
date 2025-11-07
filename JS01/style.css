@@ -1,0 +1,125 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    background-color: #fffaf2;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+#status-bar {
+    background-color: #f5deb3;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.entrada {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.iniciar {
+    background-color: #4caf50;
+    color: white;
+}
+
+.chutar {
+    background-color: #2196f3;
+    color: white;
+}
+
+.reset {
+    background-color: #ff9800;
+    color: white;
+    margin-top: 10px;
+    display: none;
+}
+
+#resultado {
+    background-color: #fff0db;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: left;
+    height: 160px;
+    overflow-y: auto;
+}
+
+#resultado h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}

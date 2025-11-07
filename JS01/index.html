@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>🎯 Adivinhe o Número</h1>
+    </header>
+
+    <main>
+        <section class="card">
+            <div id="status-bar">
+                <p id="status">+ + + + + + + + + +</p>
+            </div>
+
+            <div id="game-area">
+                <p id="mensagem">Clique em <strong>Iniciar</strong> para começar!</p>
+                <button id="btIniciar" class="btn iniciar">Iniciar Jogo</button>
+
+                <div class="entrada">
+                    <label for="num1">Seu Palpite:</label>
+                    <input type="number" id="num1" min="1" max="100" placeholder="1 a 100">
+                    <button id="btChutar" class="btn chutar">Chutar</button>
+                </div>
+            </div>
+
+            <div id="resultado">
+                <h3>📜 Histórico de Palpites</h3>
+                <p id="txtResultado">---</p>
+            </div>
+        </section>
+
+        <button id="btReiniciar" class="btn reset">🔁 Novo Jogo</button>
+    </main>
+
+    <footer>
+        <p id="txtRodape">Desenvolvido na disciplina WEB1 — versão aprimorada 💡</p>
+    </footer>
+
+    <script src="interacao.js"></script>
+</body>
+
+</html>
